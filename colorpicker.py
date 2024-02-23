@@ -1,6 +1,8 @@
 import cv2 as cv
 import numpy as np
 
+
+#---stacking image function
 def stackImages(scale,imgArray):
     rows = len(imgArray)
     cols = len(imgArray[0])
